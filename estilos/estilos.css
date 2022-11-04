@@ -57,7 +57,7 @@ html{
     border-radius: 3px;
     color:#333333
 }
-.nav-resposive{
+.nav-responsive{
     background-color: rgb(3,3,3);
     color:#fff;
     padding: 5px 10px;
@@ -68,7 +68,7 @@ html{
 
 .inicio{
     background:url(/recursos/fondo.png),linear-gradient(to top, #333, #5b5b5b) ;
-    height: 100vh;
+    /* height: 100vh; */
     color: #fff ;
     display: flex;
     align-items: center;
@@ -336,7 +336,7 @@ html{
     display: flex;
 }
 .contacto .col{
-    width:50%;
+    width:85%;
     padding: 10px;
     position: relative;
 
@@ -346,6 +346,7 @@ html{
     width:100%;
     padding:18px;
     border:none;
+    border-radius: 5px;
     margin-bottom: 20px;
     background-color: #252a2e;
     color:aliceblue;
@@ -428,7 +429,7 @@ footer .arriba{
     nav{
         display: none;
     }
-    .nav-resposive{
+    .nav-responsive{
         display: block;
     }
     nav .responsive{
@@ -451,7 +452,6 @@ footer .arriba{
 @media screen and (max-width:780px){
     .about .fil{
         display: block;
-
     }
     .about .fil .col{
         width: fit-content;
@@ -459,11 +459,9 @@ footer .arriba{
     .portafolio .galeria{
         display: block;
         width:100%;
-
     }
     .portafolio .galeria .proyecto img{
         width:100%;
-
     } 
     .skills .fila{
         display: block;
